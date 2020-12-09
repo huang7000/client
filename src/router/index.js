@@ -63,7 +63,7 @@ export const filterAsyncRouter = (routers) => { // 遍历后台传来的路由�
         } else {
           const component = router.component
           console.log(router.component);
-          router.component = loadView(component)
+          //router.component = loadView(component)
         }
       }
       if (router.children && router.children.length) {
